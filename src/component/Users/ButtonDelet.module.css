@@ -1,0 +1,36 @@
+.modalBackground{
+    width: 100px; 
+    height: 100px; 
+    background-color: white;
+    position: fixed;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer{
+    width: 500px;
+    height: 6px;
+    background: #4F005F;
+    position: fixed;
+    margin-left: 30rem;
+    border-radius: 20px;
+    padding:50px 100px 150px 100px;
+}
+
+.modalContainer .footer button{
+  width: 150px;
+  height: 45px;
+  margin: 10px;
+  border: none;
+  background-color: cadetblue;
+  color: white;
+  border-radius: 8px; 
+  cursor: pointer;
+}
+#cancelBtn{
+    background-color: crimson;
+}
+.title h3{
+    color:white;
+}
